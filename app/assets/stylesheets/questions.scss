@@ -1,0 +1,54 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+font-family: 'Share Tech Mono', monospace;
+ letter-spacing: -0.07em;
+ font-size: 45px;
+}
+
+#info {
+ font-family: 'Share Tech Mono', monospace;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+#answer {
+font-family: 'Share Tech Mono', monospace;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+#button {
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: lightgrey;
+}
+
+#atag {
+  font-family: monospace;
+  font-weight: 600;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}

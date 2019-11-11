@@ -1,0 +1,19 @@
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<h1>Stupid Coaching</h1>
+<p id="info">Here are your answers:</p>
+
+<p id="answer">
+  <% if @question == "I am going to work" %>
+  <%= "**Great!**" %>
+<% elsif @question.chomp[-1] == '?' %>
+  <%= "**Silly question, get dressed and go to work!**" %>
+  <% else %>
+  <%= "**I don't care, get dressed and go to work!**" %>
+  <% end %>
+
+</p>
+
+<button id="button"><p id="atag"><%= link_to "Ask again", ask_path%></p></button>
+</br>
+</br>
